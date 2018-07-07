@@ -1,0 +1,16 @@
+Fitter Status : Successful - Tue May 01 15:42:30 2018
+Quartus Prime Version : 16.0.0 Build 211 04/27/2016 SJ Lite Edition
+Revision Name : breakout_de2
+Top-level Entity Name : breakout_DE2
+Family : Cyclone IV E
+Device : EP4CE115F29C7
+Timing Models : Final
+Total logic elements : 1,118 / 114,480 ( < 1 % )
+    Total combinational functions : 1,082 / 114,480 ( < 1 % )
+    Dedicated logic registers : 535 / 114,480 ( < 1 % )
+Total registers : 535
+Total pins : 120 / 529 ( 23 % )
+Total virtual pins : 0
+Total memory bits : 123,392 / 3,981,312 ( 3 % )
+Embedded Multiplier 9-bit elements : 0 / 532 ( 0 % )
+Total PLLs : 2 / 4 ( 50 % )

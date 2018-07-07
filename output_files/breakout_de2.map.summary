@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Tue May 01 15:53:03 2018
+Quartus Prime Version : 16.0.0 Build 211 04/27/2016 SJ Lite Edition
+Revision Name : breakout_de2
+Top-level Entity Name : processor
+Family : Cyclone IV E
+Total logic elements : 1,032
+    Total combinational functions : 992
+    Dedicated logic registers : 505
+Total registers : 505
+Total pins : 73
+Total virtual pins : 0
+Total memory bits : 65,792
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 1

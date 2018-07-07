@@ -1,0 +1,8 @@
+module LCD_message	(
+		
+		input			high_score,
+		
+		input	[4:0]	raddr,
+		
+		output reg	[7:0] dout
+		);

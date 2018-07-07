@@ -1,0 +1,25 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vlog -vlog01compat -work work +incdir+N:/Final\ Project\ 1\ VGA/Final\ Project\ 4-28/verilog/vga_adapter {N:/Final Project 1 VGA/Final Project 4-28/verilog/vga_adapter/vga_pll.v}
+vlog -vlog01compat -work work +incdir+N:/Final\ Project\ 1\ VGA/Final\ Project\ 4-28/verilog/vga_adapter {N:/Final Project 1 VGA/Final Project 4-28/verilog/vga_adapter/vga_controller.v}
+vlog -vlog01compat -work work +incdir+N:/Final\ Project\ 1\ VGA/Final\ Project\ 4-28/verilog/vga_adapter {N:/Final Project 1 VGA/Final Project 4-28/verilog/vga_adapter/vga_address_translator.v}
+vlog -vlog01compat -work work +incdir+N:/Final\ Project\ 1\ VGA/Final\ Project\ 4-28/verilog/vga_adapter {N:/Final Project 1 VGA/Final Project 4-28/verilog/vga_adapter/vga_adapter.v}
+vlog -vlog01compat -work work +incdir+N:/Final\ Project\ 1\ VGA/Final\ Project\ 4-28/verilog {N:/Final Project 1 VGA/Final Project 4-28/verilog/processor.v}
+vlog -vlog01compat -work work +incdir+N:/Final\ Project\ 1\ VGA/Final\ Project\ 4-28/verilog {N:/Final Project 1 VGA/Final Project 4-28/verilog/image_ram.v}
+vlog -vlog01compat -work work +incdir+N:/Final\ Project\ 1\ VGA/Final\ Project\ 4-28/verilog {N:/Final Project 1 VGA/Final Project 4-28/verilog/datapath.v}
+vlog -vlog01compat -work work +incdir+N:/Final\ Project\ 1\ VGA/Final\ Project\ 4-28/verilog {N:/Final Project 1 VGA/Final Project 4-28/verilog/controller.v}
+vlog -vlog01compat -work work +incdir+N:/Final\ Project\ 1\ VGA/Final\ Project\ 4-28/verilog {N:/Final Project 1 VGA/Final Project 4-28/verilog/breakout_DE2.v}
+
+vlog -vlog01compat -work work +incdir+N:/Final\ Project\ 1\ VGA/Final\ Project\ 4-28/verilog {N:/Final Project 1 VGA/Final Project 4-28/verilog/processor_tb.v}
+
+vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  processor_tb
+
+add wave *
+view structure
+view signals
+run -all

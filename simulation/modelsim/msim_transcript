@@ -1,0 +1,28 @@
+# Reading C:/altera_lite/16.0/modelsim_ase/tcl/vsim/pref.tcl
+# do breakout_de2_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim ALTERA vmap 10.4d Lib Mapping Utility 2015.12 Dec 30 2015
+# vmap work rtl_work 
+# Copying C:/altera_lite/16.0/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+N:/Final\ Project\ 1\ VGA/Final\ Project\ 4-28/verilog/keyboard {N:/Final Project 1 VGA/Final Project 4-28/verilog/keyboard/PS2_Controller.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 21:34:37 on Apr 30,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+N:/Final Project 1 VGA/Final Project 4-28/verilog/keyboard" N:/Final Project 1 VGA/Final Project 4-28/verilog/keyboard/PS2_Controller.v 
+# -- Compiling module PS2_Controller
+# ** Error: N:/Final Project 1 VGA/Final Project 4-28/verilog/keyboard/PS2_Controller.v(60): (vlog-2730) Undefined variable: 'init_done'.
+# 
+# ** Error (suppressible): N:/Final Project 1 VGA/Final Project 4-28/verilog/keyboard/PS2_Controller.v(65): (vlog-2388) 'init_done' already declared in this scope ((null)).
+# 
+# End time: 21:34:37 on Apr 30,2018, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# ** Error: C:/altera_lite/16.0/modelsim_ase/win32aloem/vlog failed.
+# Error in macro ./breakout_de2_run_msim_rtl_verilog.do line 8
+# C:/altera_lite/16.0/modelsim_ase/win32aloem/vlog failed.
+#     while executing
+# "vlog -vlog01compat -work work +incdir+N:/Final\ Project\ 1\ VGA/Final\ Project\ 4-28/verilog/keyboard {N:/Final Project 1 VGA/Final Project 4-28/veril..."

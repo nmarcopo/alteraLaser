@@ -1,0 +1,257 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'processor:comb_8|audio_top:audio|avconf:avc|LUT_INDEX[1]'
+Slack : -4.153
+TNS   : -61.716
+
+Type  : Slow 1200mV 85C Model Setup 'processor:comb_8|audio_top:audio|avconf:avc|mI2C_CTRL_CLK'
+Slack : -3.591
+TNS   : -138.654
+
+Type  : Slow 1200mV 85C Model Setup 'processor:comb_8|LCD_information:LCD|LCD_Display:u1|CLK_400HZ'
+Slack : -2.851
+TNS   : -41.585
+
+Type  : Slow 1200mV 85C Model Setup 'CLOCK_50'
+Slack : -1.385
+TNS   : -2.735
+
+Type  : Slow 1200mV 85C Model Setup 'VGA|mypll|altpll_component|pll|clk[0]'
+Slack : 32.651
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'CLOCK_50'
+Slack : 0.354
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'VGA|mypll|altpll_component|pll|clk[0]'
+Slack : 0.403
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'processor:comb_8|LCD_information:LCD|LCD_Display:u1|CLK_400HZ'
+Slack : 0.403
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'processor:comb_8|audio_top:audio|avconf:avc|mI2C_CTRL_CLK'
+Slack : 0.403
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'processor:comb_8|audio_top:audio|avconf:avc|LUT_INDEX[1]'
+Slack : 0.618
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Recovery 'processor:comb_8|audio_top:audio|avconf:avc|mI2C_CTRL_CLK'
+Slack : -1.806
+TNS   : -21.503
+
+Type  : Slow 1200mV 85C Model Recovery 'processor:comb_8|LCD_information:LCD|LCD_Display:u1|CLK_400HZ'
+Slack : -0.437
+TNS   : -5.381
+
+Type  : Slow 1200mV 85C Model Recovery 'CLOCK_50'
+Slack : 17.376
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'processor:comb_8|audio_top:audio|avconf:avc|mI2C_CTRL_CLK'
+Slack : 0.528
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'processor:comb_8|LCD_information:LCD|LCD_Display:u1|CLK_400HZ'
+Slack : 0.768
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'CLOCK_50'
+Slack : 1.478
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'processor:comb_8|audio_top:audio|avconf:avc|mI2C_CTRL_CLK'
+Slack : -1.285
+TNS   : -74.530
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'processor:comb_8|LCD_information:LCD|LCD_Display:u1|CLK_400HZ'
+Slack : -1.285
+TNS   : -48.830
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'processor:comb_8|audio_top:audio|avconf:avc|LUT_INDEX[1]'
+Slack : 0.355
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'CLOCK_50'
+Slack : 9.547
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'VGA|mypll|altpll_component|pll|clk[0]'
+Slack : 19.707
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'processor:comb_8|audio_top:audio|avconf:avc|LUT_INDEX[1]'
+Slack : -3.836
+TNS   : -57.163
+
+Type  : Slow 1200mV 0C Model Setup 'processor:comb_8|audio_top:audio|avconf:avc|mI2C_CTRL_CLK'
+Slack : -3.251
+TNS   : -122.386
+
+Type  : Slow 1200mV 0C Model Setup 'processor:comb_8|LCD_information:LCD|LCD_Display:u1|CLK_400HZ'
+Slack : -2.537
+TNS   : -34.359
+
+Type  : Slow 1200mV 0C Model Setup 'CLOCK_50'
+Slack : -1.231
+TNS   : -2.440
+
+Type  : Slow 1200mV 0C Model Setup 'VGA|mypll|altpll_component|pll|clk[0]'
+Slack : 33.337
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'processor:comb_8|audio_top:audio|avconf:avc|mI2C_CTRL_CLK'
+Slack : 0.349
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'CLOCK_50'
+Slack : 0.353
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'processor:comb_8|LCD_information:LCD|LCD_Display:u1|CLK_400HZ'
+Slack : 0.354
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'VGA|mypll|altpll_component|pll|clk[0]'
+Slack : 0.355
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'processor:comb_8|audio_top:audio|avconf:avc|LUT_INDEX[1]'
+Slack : 0.637
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Recovery 'processor:comb_8|audio_top:audio|avconf:avc|mI2C_CTRL_CLK'
+Slack : -1.494
+TNS   : -17.934
+
+Type  : Slow 1200mV 0C Model Recovery 'processor:comb_8|LCD_information:LCD|LCD_Display:u1|CLK_400HZ'
+Slack : -0.329
+TNS   : -3.977
+
+Type  : Slow 1200mV 0C Model Recovery 'CLOCK_50'
+Slack : 17.580
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'processor:comb_8|audio_top:audio|avconf:avc|mI2C_CTRL_CLK'
+Slack : 0.488
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'processor:comb_8|LCD_information:LCD|LCD_Display:u1|CLK_400HZ'
+Slack : 0.673
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'CLOCK_50'
+Slack : 1.322
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'processor:comb_8|audio_top:audio|avconf:avc|mI2C_CTRL_CLK'
+Slack : -1.285
+TNS   : -74.530
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'processor:comb_8|LCD_information:LCD|LCD_Display:u1|CLK_400HZ'
+Slack : -1.285
+TNS   : -48.830
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'processor:comb_8|audio_top:audio|avconf:avc|LUT_INDEX[1]'
+Slack : 0.317
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'CLOCK_50'
+Slack : 9.557
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'VGA|mypll|altpll_component|pll|clk[0]'
+Slack : 19.711
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'processor:comb_8|audio_top:audio|avconf:avc|LUT_INDEX[1]'
+Slack : -1.527
+TNS   : -21.511
+
+Type  : Fast 1200mV 0C Model Setup 'processor:comb_8|audio_top:audio|avconf:avc|mI2C_CTRL_CLK'
+Slack : -1.273
+TNS   : -39.256
+
+Type  : Fast 1200mV 0C Model Setup 'processor:comb_8|LCD_information:LCD|LCD_Display:u1|CLK_400HZ'
+Slack : -0.889
+TNS   : -7.630
+
+Type  : Fast 1200mV 0C Model Setup 'CLOCK_50'
+Slack : -0.602
+TNS   : -1.177
+
+Type  : Fast 1200mV 0C Model Setup 'VGA|mypll|altpll_component|pll|clk[0]'
+Slack : 36.389
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'CLOCK_50'
+Slack : 0.148
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'processor:comb_8|audio_top:audio|avconf:avc|LUT_INDEX[1]'
+Slack : 0.168
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'processor:comb_8|audio_top:audio|avconf:avc|mI2C_CTRL_CLK'
+Slack : 0.175
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'processor:comb_8|LCD_information:LCD|LCD_Display:u1|CLK_400HZ'
+Slack : 0.182
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'VGA|mypll|altpll_component|pll|clk[0]'
+Slack : 0.183
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Recovery 'processor:comb_8|audio_top:audio|avconf:avc|mI2C_CTRL_CLK'
+Slack : -0.498
+TNS   : -2.154
+
+Type  : Fast 1200mV 0C Model Recovery 'processor:comb_8|LCD_information:LCD|LCD_Display:u1|CLK_400HZ'
+Slack : 0.288
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Recovery 'CLOCK_50'
+Slack : 18.626
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'processor:comb_8|audio_top:audio|avconf:avc|mI2C_CTRL_CLK'
+Slack : 0.167
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'processor:comb_8|LCD_information:LCD|LCD_Display:u1|CLK_400HZ'
+Slack : 0.279
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'CLOCK_50'
+Slack : 0.684
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'processor:comb_8|audio_top:audio|avconf:avc|mI2C_CTRL_CLK'
+Slack : -1.000
+TNS   : -58.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'processor:comb_8|LCD_information:LCD|LCD_Display:u1|CLK_400HZ'
+Slack : -1.000
+TNS   : -38.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'processor:comb_8|audio_top:audio|avconf:avc|LUT_INDEX[1]'
+Slack : 0.434
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'CLOCK_50'
+Slack : 9.199
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'VGA|mypll|altpll_component|pll|clk[0]'
+Slack : 19.754
+TNS   : 0.000
+
+------------------------------------------------------------
